@@ -9,6 +9,7 @@ public class Employee {
 
     //Constructor
 
+
     public Employee(String fullName, int department, int salary) {
         this.id = idCounter++;
         this.fullName = fullName;
@@ -18,6 +19,7 @@ public class Employee {
 
 
     //Setters
+
 
 
     public void setDepartment(int department) {
